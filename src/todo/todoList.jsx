@@ -22,11 +22,11 @@ export default props => {
     }
 
     return (
-        <table className='table'>
+        <table className='table table-responsive table-condensed '>
             <thead>
                 <tr>
-                    <th>Descrição</th>
-                    <th>Ações</th>
+                    <th >Descrição</th>
+                    <th className='tableActions'>Ações</th>
                 </tr>
             </thead>
             <tbody>
